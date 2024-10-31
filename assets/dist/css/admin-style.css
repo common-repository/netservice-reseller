@@ -1,0 +1,115 @@
+/** Sass-Ready media queries Here there are some presets of useful media queries breakpoints for various devices Usage: @media variable-name { } and it will compile to: @media screen width and height { }  */
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) { /* Styles */ }
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) { /* Styles */ }
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) { /* Styles */ }
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) { /* Styles */ }
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) { /* Styles */ }
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) { /* Styles */ }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { /* Styles */ }
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) { /* Styles */ }
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) { /* Styles */ }
+
+/*# sourceMappingURL=admin-style.css.map */
+
+
+.card12{
+    width: 70%;
+    margin: auto;
+    border: none;
+    box-shadow: 0px 7px 55px 0 #ebecf1;
+    margin-top: 100px;
+    max-width: none;
+    padding: 2% 20% 4% 20%;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+    border-right: 5px solid #7e3cff;
+}
+.ax{
+    position: absolute;
+    bottom: -90px;
+    left: -60px;
+    width: 250px;
+    opacity: 0.05;
+}
+
+.top{
+    width: 30%;
+    background: #7e3cff;
+    height: 35px;
+    border-radius: 15px;
+    margin: auto;
+    position: absolute;
+    right: 35%;
+    top: -25px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    padding: 20px !important;
+    border-radius: 5px !important;
+    border: 2px solid #e7e5ef !important;
+    max-width: none !important;
+}
+.btnna {
+    width: 100%;
+    margin: auto;
+    border: none;
+    background: #f7f6fb;
+    color: #7f7dcd;
+    padding: 11px;
+    display: block;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 2s;
+}
+.form-group label {
+    text-align: center;
+    margin: auto;
+    background: #fff;
+    margin-bottom: -13px;
+    overflow: auto;
+    padding: 10px 5px 0px 10px;
+    color: #878787;
+    float: right;
+    line-height: 2;
+}
+.form-control:focus {
+    box-shadow: none !important;
+    border: 2px solid #bdb3ff !important;
+}
+
+@media only screen and (max-width: 960px){
+    .card12{
+        padding: 5% 5%;
+        width: 80%;
+    }
